@@ -1042,9 +1042,9 @@ function! s:CreateAdditionalMaps ()
 	 noremap  <buffer>  <silent>  <LocalLeader>hbs        :call BASH_HelpBashSupport()<CR>
 	inoremap  <buffer>  <silent>  <LocalLeader>hbs   <C-C>:call BASH_HelpBashSupport()<CR>
 	"
-	# disable C-j overriding. it disrupts vim split navigations
-	#nnoremap    <buffer>  <silent>  <C-j>    i<C-R>=BASH_JumpForward()<CR>
-	#inoremap    <buffer>  <silent>  <C-j>     <C-R>=BASH_JumpForward()<CR>
+	" disable C-j overriding. it disrupts vim split navigations
+	"nnoremap    <buffer>  <silent>  <C-j>    i<C-R>=BASH_JumpForward()<CR>
+	"inoremap    <buffer>  <silent>  <C-j>     <C-R>=BASH_JumpForward()<CR>
 	"
 	"-------------------------------------------------------------------------------
 	" settings - reset local leader
